@@ -105,6 +105,7 @@ li {
 .navbar {
   height: 80px;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding-inline: clamp(16px, 9vw - 17.8px, 112px);
 }
