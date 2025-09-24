@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+  </head>
+  <body class="page">
+    <header class="navbar">
+      <!-- navigation landmark -->
+      <nav class="navbar__container" aria-label="Main navigation">
+        <!-- logo -->
+        <a href="#" class="navbar__logo"
+          ><img
+            src="./img/abstractly.svg"
+            alt="Abstractly logo"
+            class="navbar__logo-img img-fixed"
+            width="112"
+            height="32"
+        /></a>
+
+        <!-- button controls the menu container (id="navbar-menu") -->
+        <button
+          class="navbar__toggle"
+          aria-controls="navbar-menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation menu"
+          type="button"
+        >
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <!-- menu container -->
+        <div
+          id="navbar-menu"
+          class="navbar__menu-container"
+          role="navigation"
+          aria-label="Main navigation"
+        >
+          <div class="navbar__menu-header">
+            <!-- logo -->
+            <a href="#" class="navbar__logo"
+              ><img
+                src="./img/abstractly.svg"
+                alt="Abstractly logo"
+                class="navbar__logo-img navbar__logo-img--menu img-fixed"
+                width="112"
+                height="32"
+            /></a>
+            <button class="navbar__close" aria-label="Close navigation menu">
+              <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <!-- navigation links -->
+          <ul class="navbar__menu" role="list">
+            <li aria-current="page">
+              <a href="#" class="navbar__link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="navbar__link">Features</a>
+            </li>
+            <li>
+              <a href="#" class="navbar__link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="navbar__link">About us</a>
+            </li>
+            <li>
+              <a href="#" class="navbar__link">Contact</a>
+            </li>
+          </ul>
+
+          <!-- action buttons -->
+          <div class="navbar__actions">
+            <button type="button" class="navbar__button">Learn more</button>
+            <button
+              type="button"
+              class="navbar__button navbar__button--primary"
+            >
+              See pricing
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Credits -->
+    <!-- <footer class="credits">
+      A challenge by&nbsp;
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        >GreatFrontEnd Projects</a
+      >. Built by&nbsp;
+      <a
+        href="https://www.greatfrontend.com/projects/u/abiliodeassis"
+        target="_blank"
+        >Abilio de Assis</a
+      >.
+    </footer> -->
+
+    <!-- JavaScript -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
